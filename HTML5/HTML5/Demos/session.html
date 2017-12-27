@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    
+
+function clickCounter() {
+    if(typeof(Storage) !== "undefined") {
+        sessionStorage.user='Praveen';
+        document.getElementById("userName").innerHTML=sessionStorage.user;
+        
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+    
+    
+}
+</script>
+</head>
+<body>
+     <div>
+            Welcome <span id="userName"></span>
+    </div>
+<p><button onclick="clickCounter()" type="button">Click me!</button></p>
+<div id="result"></div>
+<p>Click the button to see the User name.</p>
+<p>Close the browser tab (or window), and try again, and the counter is reset.</p>
+</body>
+</html>
