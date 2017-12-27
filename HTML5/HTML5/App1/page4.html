@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    
+        <h2 align='center'>Form Demo_</h2>
+
+    <form name='fn' action="#" method="POST">
+    <table cellspacing='5' cellpadding='5'>
+    <tr>
+        <td>*Employee Name</td>
+        <td><input type="text" name="empName" required></td>
+    </tr>    
+    <tr>
+         <td>*Password</td>
+        <td><input type="password" name="pwd" required></td>
+    </tr>  
+    <tr>
+        <td>*Age</td>
+        <td> <input type="text" name="empAge" maxlength="3" size="5" required></td>
+    </tr>
+
+    <tr>
+        <td>Gender</td>
+        <td>
+            <input type="radio" name='gen'>Male
+            <input type="radio" name='gen'>Female
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>Hobbies</td>
+        <td>
+            <input type="checkbox" name='hob'> Foot Ball
+            <input type="checkbox" name='hob'> Volley Ball
+            <input type="checkbox" name='hob'> Cricket
+        </td>
+    </tr>
+
+    <tr>
+        <td>Select Department</td>
+        <td>
+            <select name='deptName'>
+                <option>IT</option>
+                <option>HR</option>
+                <option>Accounts</option>
+                <option>Transport</option>
+                <option>Finance</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Address</td>
+        <td><textarea name="addr"  cols="30" rows="5"> Your address goes here</textarea> </td>
+    </tr>
+    <tr>
+        <td>Upload Picture</td>
+        <td><input type="file" name='empPic'></td>
+    </tr>
+
+    <tr>
+        <td>Select Age Range</td>
+        <td><input type="range" min="18"></td>
+    </tr>
+
+   <tr>
+       <td>Select Color</td>
+       <td><input type="color" name='fontColor'></td>
+   </tr>
+   <tr>
+       <td>Select Colors</td>
+       <td>
+            <label for="colors-box">Colors:</label><br/>
+            <input id="colors-box" list="colors" />
+            <datalist id="colors">
+            <option value="Blue" />
+            <option value="Red" />
+            <option value="Yellow" />
+            <option value="Orange" />
+            <option value="White" />
+            </datalist>
+       </td>
+   </tr>
+   <tr>
+       <td>Select Time</td>
+       <td><input type="time"></td>
+   </tr>
+
+   <tr>
+       <td>Select Login date and Time</td>
+       <td><input type="datetime""></td>
+   </tr>
+   <tr>
+       <td>Select DOB</td>
+       <td><input type="date"></td>
+   </tr>
+    <tr>
+        <td>Phone Number</td>
+        <td><input type="number"></td>
+    </tr>
+    <tr>
+        <th colspan="2">
+            <input type="submit" value="Register">
+            <input type="reset" value='Clear All'>
+            <input type="button" value='Cancel'>
+            <button>Load Data</button>
+        </th>
+
+    </tr>   
+    </table>
+    </form>
+    </body>
+</html>

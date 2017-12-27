@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 align='center'>HTML5 New Form Elements_</h1><hr/>
+
+        <table>
+            <form action="#">
+                <tr>
+                    <td>*Name</td>
+                    <td><input type='text'  pattern="[A-z]{1,15}" name='empName' required></td>
+                </tr>
+                <tr>
+                    <td>URL</td>
+                    <td><input type="url" value="yellow submarine" /></td>
+                </tr>
+                <tr>
+                    <td>Select Color</td>
+                    <td><input type="color"></td>
+                </tr>
+                <tr>
+                    <td>Select your Color</td>
+                    <td>
+                            <label for="colors-box">Colors:</label><br/>
+                            <input  list="colors" />
+                            <datalist id="colors">
+                            <option value="Blue" />
+                            <option value="Red" />
+                            <option value="Yellow" />
+                            <option value="Orange" />
+                            <option value="White" />
+                            </datalist>
+                    </td>
+
+                </tr>
+                <tr>
+
+                    <td>Select Date of Birth</td>
+                    <td><input type="date" /></td>
+                </tr>
+
+                <tr>
+                    <td>*Email</td>
+                    <td><input type="email" required/></td>
+                </tr>
+
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="tel" /></td>
+                </tr>
+
+                <tr>
+                    <td>Select Your Age Range</td>
+                    <td><input type="range" value="88" min="18" max="100"/></td>
+                </tr>
+
+                <tr>
+                    <td>Enter Age:</td>
+                    <td><input type="number" min="18" max="90" step="5" /></td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <input type="submit" value='Save'>
+                    </th>
+                </tr>
+            </form>
+        </table>
+    
+    </body>
+</html>
