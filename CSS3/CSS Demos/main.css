@@ -1,0 +1,17 @@
+h1{
+    font-family: Arial;
+    color: blue;
+    text-align: center
+}
+.class1{
+    font-family: Courier New;
+    color: black;
+}
+.class2{
+    color: red;
+    font-size: 15px;
+}
+#myId{
+    color: purple;
+    text-align: center;
+}

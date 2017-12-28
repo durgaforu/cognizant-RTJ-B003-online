@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+  
+  <style>
+      p.center{
+          color: blue;
+          font-size: 40px;
+          font-family: Arial;
+      }
+      .mainhead{
+          text-align: center;
+          color: purple;
+      }
+
+      .result{
+          color: red;
+          font-size: 25px;
+      }
+  </style>
+  <script>
+ 
+       function abc(s1){
+           document.getElementById('result').innerHTML=s1.value;
+        }
+ 
+    </script>
+    </head>
+    <body>
+
+        <h1 class='mainhead'>CSS Class Selectors Demo_</h1><hr/>
+       
+        <input type="text" id='user' onkeyup="abc(this)"><br/>
+        <div>
+            You have entered: <span id='result'></span>
+        </div>
+        <div class='result'>
+            Praveen
+        </div>
+
+        <p class='center'>This is a Para 1</p>
+        <p>This is a Para 2</p>
+        <div class="center">
+            This is a DIV
+        </div>
+    
+    </body>
+</html>

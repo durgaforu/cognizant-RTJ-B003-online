@@ -1,0 +1,88 @@
+CSS
+-----
+-> CSS stands for Cascading style sheets
+-> CSS describes How HTML elements are displayed on the screen using syles and decorations
+-> CSS saves lots of work.
+-> It controlls the layout of multiple web pages all at once.
+
+CSS Syntax
+-----------
+p{color:blue;font-size:20px;}
+
+
+Three Ways to Inser CSS in HTML pages
+-----------------------------------------
+	-> External style sheets
+		-> <link href="/main.css" rel="stylesheet">
+	-> Internal style sheets
+		-> <style>  <style>
+	-> Inline style sheets
+		-> <p style=color:red>
+
+
+
+CSS Selectors
+--------------
+-> CSS selectors are used to find or select The HTML elements based on their 
+	-> name or element
+	-> id
+	-> class
+	-> attribute etc
+
+
+CSS Element Selectors
+----------------------
+p{
+  color:blue;
+  font-size:20px;
+}
+
+h1{
+ text-align:center;
+ color:red;
+
+}
+
+CSS ID Selectors
+-------------------
+#myId{
+	color:green;
+	font-size:20px;
+}
+
+CSS Class Selectors
+----------------------
+.myClass{
+	color:red;
+	font-size:30px;
+}
+
+
+CSS Attribute Selectors
+------------------------
+p.center{
+color:red;
+}
+
+
+
+
+
+
+
+
+
+
+CSS Properties
+-------------
+-> color  -> blue
+-> font-size -> 10px
+-> border
+-> text-align -> center, left, right, start, end 
+
+
+
+
+
+
+
