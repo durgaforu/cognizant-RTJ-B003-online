@@ -76,9 +76,45 @@ color:red;
 CSS Properties
 -------------
 -> color  -> blue
+-> background-color -> black
 -> font-size -> 10px
--> border
+-> border-style
+	-> solid
+	-> dashed
+	-> dotted
+	-> double
+	-> ridge
+	-> outset
+	-> none
+	-> hidden
 -> text-align -> center, left, right, start, end 
+
+CSS Margins
+-----------
+	-> margin-top
+	-> margin-right
+	-> margin-left
+	-> margin-bottom
+
+CSS Box Model
+----------------
+	-> content
+	-> padding
+	-> border
+	-> margin
+Ex: 
+	div{
+		width:300px;
+		border:25px solid greem;
+		padding: 25px;
+		margin: 25px;
+	   }
+
+
+
+
+
+
 
 
 
